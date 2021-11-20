@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main() {
+   float yaricap,pi,alan,cevre;
+   printf("Cember yaricapini giriniz : ");
+   scanf("%f",&yaricap);
+   pi=3.14;
+   alan=yaricap*yaricap*pi;
+   printf("Cemberin alani : %f\n",alan);
+   cevre=2*pi*yaricap;
+   printf("Cemberin cevresi : %f",cevre);
+	
+	return 0;
+}

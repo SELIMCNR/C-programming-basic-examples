@@ -5,6 +5,7 @@
 int main()
 {
   int yaz1,yaz2,soz1,ort;
+  	setlocale(LC_ALL,"Turkish");
 	printf("Yazili notu girin : \n");
         	scanf("%d",&yaz1);
 	printf("1. Yaziliniz: %d \n",yaz1);

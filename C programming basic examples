@@ -7,7 +7,7 @@
 
 int main() {setlocale(LC_ALL,"Turkish");
 	int kenar1,kenar2,cevre,alan;
-	printf("******Cevre Hesabi*******\n \n \n");
+	printf("******Dikdortgen Cevre Hesabi*******\n \n \n");
 	
 	printf("1.kenari giriniz: \n");
 	scanf("%d",&kenar1);
@@ -20,7 +20,7 @@ int main() {setlocale(LC_ALL,"Turkish");
 	cevre=(kenar1+kenar2)*2;
 	printf("Cevre: %d \n",cevre);
 	
-	printf("*******Alan Hesabi ******\n\n\n");
+	printf("*******Dikdortgen Alan Hesabi ******\n\n\n");
 	alan=kenar1*kenar2;
 	printf("Alan: %d \n",alan);
 

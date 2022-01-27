@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+#include<locale.h>
+
+int main()
+{
+  int yaz1,yaz2,soz1,ort;
+	printf("Yazili notu girin : \n");
+        	scanf("%d",&yaz1);
+	printf("1. Yaziliniz: %d \n",yaz1);
+	
+	printf("2. Yazlini notu girin: \n");
+	        scanf("%d",&yaz2);
+	printf("2. Yaziliniz : %d\n",yaz2);
+	
+	printf("Sozlu notu girin: ");
+	        scanf("%d",&soz1);
+	printf("Sozlu notunuz: %d\n",soz1);
+
+	ort=(yaz1+yaz2+soz1)/3;
+	printf("Ortalamaniz: %d",ort);
+  
+  getchar();
+  getchar();
+}

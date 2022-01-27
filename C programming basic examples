@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main() {setlocale(LC_ALL,"Turkish");
+	int kenar1,kenar2,cevre,alan;
+	printf("******Cevre Hesabi*******\n \n \n");
+	
+	printf("1.kenari giriniz: \n");
+	scanf("%d",&kenar1);
+	printf("Kisa kenar: %d \n",kenar1);
+	
+	printf("2.kenari giriniz: \n");
+	scanf("%d",&kenar2);
+	printf("Uzun kenar: %d \n",kenar2);
+	
+	cevre=(kenar1+kenar2)*2;
+	printf("Cevre: %d \n",cevre);
+	
+	printf("*******Alan Hesabi ******\n\n\n");
+	alan=kenar1*kenar2;
+	printf("Alan: %d \n",alan);
+
+
+
+	getchar();
+	getchar();
+
+}

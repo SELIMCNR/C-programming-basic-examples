@@ -1,0 +1,38 @@
+#include<stdio.h>
+#include<conio.h>
+#include<locale.h>
+
+int main ()
+{
+	setlocale(LC_ALL,"Turkish");float maas,iade;
+ 	
+	 printf("******Vergi İadesi Hesaplama *****\n\n\n");
+ 	
+	printf("Emekli maasi girin: ");
+ 	scanf("%f",&maas);
+ 	
+ 	if(maas<180)
+ 	{
+ 		iade=(maas/100)*10;
+ 		printf("Emekli maas iadeniz: %f ",iade);
+	}
+	 else if (maas>180 & maas<360)
+	{
+		iade=(maas/100)*20;
+		printf("Emekli maas iadeniz: %f",iade);
+	}
+	else if (maas>360 & maas<600)
+	{
+		iade=(maas/100)*12;
+		printf("Emekli maas iadeniz: %f",iade);
+	}
+ 	else if (maas>600)
+	{
+	 	iade=(maas/100)*5;
+	 	printf("Emekli maas iadeniz: %f",iade);
+	}
+	
+ 	getchar();
+	getchar();
+
+}

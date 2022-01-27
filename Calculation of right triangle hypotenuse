@@ -7,6 +7,7 @@
 int main ()
 {
   int kenar1,kenar2,hipo;
+  	setlocale(LC_ALL,"Turkish");
 	printf("****Dik Ucgen Hipotenus Hesabi **** \n\n\n");
 	printf("1.Kenari giriniz: \n");
 	    scanf("%d",&kenar1);
@@ -20,5 +21,5 @@ int main ()
 	printf("Ucgenin hipotenusu: %d",hipo);
   
   getchar();
-	getchar();
+  getchar();
 }

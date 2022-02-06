@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<conio.h>
+#include<locale.h>
+
+
+int main ()
+{
+int s1;
+	 
+	 printf("Sayiyi giriniz: ");
+	 scanf("%d",&s1);
+	 if (s1>0)
+	 {
+	  	printf("Sayi pozitif");
+	 }
+	 else if (s1==0)
+	 {
+	 	  printf("Sayi sıfır");
+	 }
+	 else if(s1<0)
+	 {
+	 	  printf("Sayi negatif");
+	 }
+getchar();
+getchar();
+return 0;
+		

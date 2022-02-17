@@ -1,0 +1,46 @@
+#include<stdio.h>
+#include<conio.h>
+
+
+int main() 
+{
+	puts("-------Sayinin basamak miktarini bulan program---------\n\n\n");
+  long unsigned sayi;
+  printf("Sayiyi gir: ");
+  scanf("%lu",&sayi);
+  
+  if (sayi<=10 && sayi>1)
+  {
+  	printf("Bir basamakli sayi");
+  }
+  else if (sayi<1000 && sayi>=100)	
+  {
+  	printf("İki basamakli sayi");
+  }
+  else if (sayi <10000 && sayi>=1000)
+  {
+  	printf("Uc basamakli sayi");
+  }	
+  else if (sayi<100000 && sayi>=10000)
+  {
+  	printf("Dort basamakli sayi");
+  }	
+  else if (sayi<1000000 && sayi>=100000)
+  {
+  	printf("Bes basamakli sayi");
+  }
+  else if (sayi<10000000 && sayi>=1000000)
+  {
+    printf("Alti basamakli sayi");	
+  }	
+  else if (sayi<100000000 && sayi>=10000000)
+  {
+  	printf("Yedi basamakli sayi");
+  }
+  else if (sayi<1000000000 && sayi>=100000000)
+  {
+  	printf("Sekiz basamakli sayi");
+  }
+  getchar();
+  getchar();
+}

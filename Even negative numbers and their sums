@@ -1,0 +1,37 @@
+#include<stdio.h>
+#include<conio.h>
+
+
+int main()
+{
+	puts("-------Disardan girilen sayi baslangic ve miktari kadar negatif,tek,cift sayilari bulan ve toplamlarini yazdiran program-----\t\t\n\n");
+	
+	int s1,s2,i,negttop=0,tekttop=0,cifttop=0;
+	printf("Baslangic sayisini giriniz: ");
+	scanf("%d",&s1);
+	printf("Sayi miktari yazin:");
+	scanf("%d",&s2);
+	for(i=s1;i<=s2;i++)
+	{
+		if(i<0)
+		{
+			printf("\n \t%d. sayi negatif",i);
+			negttop=negttop+i;	
+			printf("\n\ \t%dnegatif sayilarin toplami\n",negttop);
+			
+		}
+		else if(i%2==1)
+		{
+			printf("\n \t%d. sayi tek",i);
+			tekttop=tekttop+i;
+			printf("\n \tTek sayilarin toplami %d\n",tekttop);
+		}
+		else if(i%2==0)
+		{
+			printf("\n \t%d.sayi cift",i);
+			cifttop=cifttop+i;
+			printf("\n \tCift sayilarin toplami %d\n",cifttop);
+		}
+	}
+	
+}

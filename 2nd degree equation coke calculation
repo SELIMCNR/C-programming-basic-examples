@@ -1,0 +1,41 @@
+#include <conio.h>
+#include <stdio.h>
+#include <math.h>
+ int main()
+{
+	printf("2.Dereceden Denklem kok hesabi")
+	int a,b,c,x1,x2,delta;
+	printf("a deger: ");
+	scanf("%d",&a);
+	printf("\na degeri: %d ",a);
+	printf("\nb degeri: ");
+	scanf("%d",&b);
+	printf("\nb degeri: %d",b);
+	printf("\nc degeri: ");
+	scanf("%d",&c);
+	printf("\nc degeri: %d",c);
+	
+		delta=(b*b)-(4*a*c);
+	if(delta>0)
+	{
+		x1=(-b+sqrt(delta))/2*a;
+		x2=(-b-sqrt(delta))/2*a;
+		printf("\n1.kok: %d",x1);
+		printf("\n2.kok: %d",x2);
+	}
+	else if (delta ==0)
+	{
+		x1=(-b/2*a);
+		x2=(-b/2*a);
+		printf("\n1.kok: %d",x1);
+		printf("\n2.kok: %d",x2);
+	}
+	else if (delta<0)
+	{
+	printf("\nReel Kok yoktur");
+	}
+	
+
+
+ getchar();
+}

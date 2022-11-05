@@ -45,7 +45,7 @@ int main() {
 	}
 	else {
 		printf("Girdiðiniz sayi tektir");
-	}	*/
+	}	
 	
 	int sayi4 ;
 	int sayi2 ;

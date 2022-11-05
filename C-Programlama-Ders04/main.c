@@ -43,14 +43,14 @@ int main(int argc, char *argv[]) {
 	
 	printf("Ücgen alani : %d \n",alan);
 	printf("Ücgen cevresi: %d",cevre);
-	*/
+	
 	
 	// vize ve final not hesabý
 	
 	
 	float vize ;
 	float final ;
-	float ort;
+	float ort1;
 	
 	printf("Vize notunu giriniz :  \n");
 	scanf("%f",&vize);
@@ -60,27 +60,27 @@ int main(int argc, char *argv[]) {
 	scanf("%f",&final);
 	printf("Final notunuz: %f \n",final);
 	
-	ort=vize*0.4 + final*0.6;
+	ort1=vize*0.4 + final*0.6;
 	
-	printf("Ortalamanýz: %f",ort);
+	printf("Ortalamanýz: %f",ort1);
 	
 	
 	
 	//Yarýçapý girilen dairenin çevre ve alan hesabý 
 	const float pi=3.14 ; 
 	float yaricap;
-	float cevre ;
-	float alan;
+	float cevre1 ;
+	float alan1;
 	
 	printf("Yaricapi giriniz: \n ");
 	scanf("%f",&yaricap);
 	printf("Yaricapiniz: %f \n",yaricap);
 	
 	alan = pi*yaricap*yaricap;
-	cevre=2*pi*yaricap;
+	cevre1=2*pi*yaricap;
 	
-	printf("Daire alaný: %f \n",alan);
-	printf("Daire cevresi: %f \n",cevre);
+	printf("Daire alaný: %f \n",alan1);
+	printf("Daire cevresi: %f \n",cevre1);
 	
 	
 	

@@ -7,20 +7,20 @@
 
 int main() {
 	//Girilen 3 sayýdan en büyüðünü bulan program
-	float a,b,c,Enbuyuk;
+	float ab,ba,cb,Enbuyuk;
 	
 	printf("3 tane sayi girin ");
-	scanf("%f %f %f",&a,&b,&c);
-	printf("ilk sayi : %f \n Ýkinci sayi: %f \n Ucuncu sayi: %f \n",a,b,c);
+	scanf("%f %f %f",&ab,&ba,&cb);
+	printf("ilk sayi : %f \n Ýkinci sayi: %f \n Ucuncu sayi: %f \n",ba,ba,cb);
 	
-	if((a>b) && (a>c)){
-		Enbuyuk= a;
+	if((ab>ba) && (ab>cb)){
+		Enbuyuk= ab;
 	}
-	else if ((b>a) && (b>c)){
-		Enbuyuk = b;
+	else if ((ba>ab) && (ba>cb)){
+		Enbuyuk = ba;
 	}
 	else {
-		Enbuyuk = c;
+		Enbuyuk = cb;
 	}
 	printf("En buyuk sayi %f'dir.\n",Enbuyuk);
 		
